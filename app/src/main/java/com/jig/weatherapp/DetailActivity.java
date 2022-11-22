@@ -12,7 +12,6 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        String cityName = getIntent().getStringExtra(Constants.CITY_NAME);
-        ((TextView)findViewById(R.id.txt_name_value)).setText(cityName);
+        ((TextView)findViewById(R.id.txt_name_value)).setText("Bolívar");
     }
 }

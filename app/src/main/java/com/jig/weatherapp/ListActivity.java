@@ -27,11 +27,5 @@ public class ListActivity extends AppCompatActivity {
         list.add("Mar del Plata");
         MyAdapter citiesAdapter = new MyAdapter(this, R.layout.list_item, list);
         myListView.setAdapter(citiesAdapter);
-        myListView.setOnItemClickListener((adapterView, view, position, l) -> {
-            Intent data = new Intent();
-            data.putExtra(Constants.CITY_NAME, list.get(position));
-            setResult(Activity.RESULT_OK, data);
-            finish();
-        });
     }
 }
