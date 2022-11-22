@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <string name="home_txt_welcome">Bienvenido a la aplicación del Clima</string>
+    <string name="home_btn_current_forecast">Pronóstico Actual</string>
+    <string name="home_btn_cities">Listado de ciudades</string>
+    <string name="detail_city_name">Nombre de la ciudad</string>
+    <string name="detail_current_temperature">Temperatura Actual y descripción del clima</string>
+    <string name="detail_min_temperature">Temperatura Min</string>
+    <string name="detail_max_temperature">Temperatura Max</string>
+</resources>
